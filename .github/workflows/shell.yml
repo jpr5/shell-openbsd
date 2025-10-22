@@ -19,7 +19,7 @@ jobs:
       id: shell
       uses: vmactions/openbsd-vm@v1
       with:
-        arch: aarch64
+        arch: amd64
         release: "7.7"
         nat: |
           "8000": "80"
